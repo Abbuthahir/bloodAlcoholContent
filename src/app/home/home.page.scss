@@ -1,27 +1,49 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.custom-label {
+  color: #555555;
+  margin-left: 0px;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.align-right-cursor {
+  text-align: right;
+  // margin-right: 20px;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.ion-datetime-button-overlay {
+  --width: 100%;
+  --height: 96%;
+}
+#datetime{
+ width: 100%;
+ background-color: white;
+ max-width: 100%;
 }
 
-#container a {
-  text-decoration: none;
+.ion-accordion-toggle-icon{
+  width: 0px;
+}
+.custom-time{
+  background-color: white;
+
+}
+.custom-date{
+  background-color: white;
+  padding-left: 0px;
+  padding-right:0px;
+}
+ion-datetime {
+  --background: rgb(255, 255, 255);
+  --background-rgb: 255, 255, 255;
+  --wheel-highlight-background: rgb(238, 238, 238);
+  --wheel-fade-background-rgb: 255, 255, 255;
+}
+
+ion-datetime::part(wheel-item) {
+  color: rgb(3, 3, 3);
+}
+
+.disabled-button {
+  --color: gray;
+}
+.customization{
+  background-color:#F2F1F6;
 }
